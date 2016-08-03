@@ -1,0 +1,161 @@
+header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden; }
+
+video {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -5; }
+
+img {
+  float: left;
+  height: 75px;
+  margin-left: 75px;
+  margin-top: 10px; }
+
+nav {
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-right: 10px; }
+
+ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  color: #305291;
+  background-color: white;
+  padding: 10px; }
+
+a:hover {
+  background-color: #305291;
+  color: white; }
+
+.Headerbox {
+  font-family: sans-serif;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  clear: both;
+  font-family: sans-serif;
+  color: #305291;
+  font-size: 45px; }
+
+.protecting {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  clear: both;
+  font-family: sans-serif;
+  font-size: 20px; }
+
+.title {
+  height: 300px;
+  background-color: #305291;
+  position: relative; }
+
+.pledgebody {
+  height: 129px;
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.pledge {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  clear: both;
+  font-family: sans-serif;
+  margin-bottom: 20px; }
+
+.pledgetext {
+  margin-top: 10px;
+  color: white;
+  text-align: center; }
+
+.mainbody {
+  background-color: #f2f2f2; }
+
+.issuesgroup {
+  height: 563px;
+  width: 836px;
+  margin: 0 auto;
+  background-color: #f2f2f2; }
+
+.issues {
+  font-size: 30px;
+  background-color: #305291;
+  text-align: center;
+  text-transform: uppercase;
+  clear: both;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  color: white; }
+
+.issuestext {
+  color: #666666; }
+
+.mainbox {
+  height: 300px;
+  width: 22%;
+  background-color: white;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top; }
+  .mainbox h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #305291; }
+  .mainbox i {
+    font-size: 30px;
+    border: 1px solid #305291;
+    color: #305291;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px; }
+  .mainbox i:hover {
+    background-color: #305291;
+    color: white; }
+  .mainbox .fa {
+    display: inline; }
+  .mainbox p {
+    text-align: center; }
+
+footer {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  color: #305291;
+  font-family: sans-serif; }
+
+.address {
+  display: inline-block;
+  width: 33%;
+  text-align: center; }
+
+.phone {
+  display: inline-block;
+  width: 33%;
+  text-align: center; }
+
+.email {
+  display: inline-block;
+  width: 33%;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
